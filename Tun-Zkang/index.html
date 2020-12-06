@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>HUFLIT CAFE CONNER</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+
+  <!--! Fontawesome -->
+  <!-- <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css"> -->
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+  <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+  <!--! CSS -->
+  <link rel="stylesheet" href="css/Bootstrap-4.5.3/bootstrap.css">
+  <link rel="stylesheet" href="css/Bootstrap-4.5.3/bootstrap.min.css">
+  <link rel="stylesheet" href="css/Bootstrap-4.5.3/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/Bootstrap-4.5.3/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/Bootstrap-4.5.3/bootstrap-reboot.css">
+  <link rel="stylesheet" href="css/Bootstrap-4.5.3/bootstrap-reboot.min.css">
+  <!--! jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!--! JS -->
+  <script src="js/bootstrap-4.5.3/bootstrap.js"></script>
+  <script src="js/bootstrap-4.5.3/bootstrap.min.js"></script>
+  <script src="js/bootstrap-4.5.3/bootstrap.bundle.js"></script>
+  <script src="js/bootstrap-4.5.3/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+
+<body>
+  <!--! thanh navigation -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="index.html">
+      <img id="logo" src="img/TŨN-logo/vector/TunZkangCorpLogo.svg" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="index.html">
+            <button type="button" class="btn btn-outline-warning"> HOME
+              <i class="fas fa-house-user"></i>
+            </button>
+          </a>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target=".bd-modal-lg">
+            Giới Thiệu
+            <i class="fas fa-info-circle"></i>
+          </button>
+
+          <div class="modal fade bd-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalLongTitle">GIỚI THIỆU</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <!-- nút x bấm vào tắt cái popup giới thiệu này lại -->
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Coffee is one of the world’s most popular beverages. Some claim it is the most widely consumin the
+                    world aside from water. <br>
+                  </p>
+                  <p>
+                    Coffee is more than a beverage, however. It is a memory, an anticipation, a lifetime of consoling
+                    moments of modest pleasure woven into our lives. <br>
+                  </p>
+                  <p>
+                    Coffee’s success as a beverage undoubtedly is owing both to the caffeine it harbors and to its
+                    sensory pleasure. Coffee lovers come to associate the energizing lift of the caffeine with the
+                    richness and aroma of the beverage that delivers it. <br>
+                  </p>
+                  <p>
+                    Coffee is produced from the seeds of a small red (sometimes yellow) fruit that grows on plants
+                    halfway in size between shrub and tree. The process that turns these seeds into beverage is a long
+                    and complex process, perhaps the most complex process associated with any major beverage. <br>
+                  </p>
+                  <p>
+                    It is also a very labor intensive process involving a vast intercontinental collaboration that
+                    starts with the coffee grower, moves from there to the picker, then to the mill workers who
+                    meticulously remove the fruit and dry the beans, then to those who clean and grade the beans, to
+                    those who roast them, to those consumers and baristas who finally grind the beans and prepare the
+                    beverage. Every act along the way can be performed either with passion and precision or with
+                    careless shoddiness. It is the cumulative quality of all of these creative contributions that
+                    together make the difference between a lackluster cup and a fine and distinctive one. <br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-outline-warning">
+            Contact
+            <i class="fas fa-phone-square-alt"></i>
+          </button>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button type="button" class="btn btn-outline-warning dropdown-toggle" type="button"
+              id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+              <i class="fas fa-caret-square-down"></i>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                <a class="dropdown-item" href="#">
+                  <i class="far fa-list-alt"></i>
+                  Menu
+                </a>
+
+                <div>
+                  <a class="dropdown-item" href="#">
+                    <i class="far fa-building"></i> Chuỗi cửa hàng
+                  </a>
+                </div>
+                
+                <a class="dropdown-item" href="#">
+                  <i class="far fa-newspaper"></i>
+                  Tin Tức
+                </a>
+              </div>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div id="e-newletters">
+      <button type="button" class="btn btn-outline-warning my-2 my-lg-0" data-toggle="modal"
+        data-target="#form-dang-ki">
+        Đăng kí nhận E-NEWSLETTER
+      </button>
+      <div class="modal fade" id="form-dang-ki" tabindex="-1" role="dialog" aria-labelledby="modalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel">HÃY ĐIỀN ĐẦY ĐỦ THÔNG TIN</h5> <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validation01">Your Name (Full Name)</label>
+                    <input type="text" class="form-control" id="validation1" placeholder="Họ và Tên..." value="" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationUsername">Your Email</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="validationUsername" placeholder="Your Email..." aria-describedby="inputGroupPrepend2" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validation3">Thành Phố Đang Sống:</label>
+                    <input type="text" class="form-control" id="validation3" placeholder="Thành Phố..." required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validation4">Quận (huyện):</label>
+                    <input type="text" class="form-control" id="validation4" placeholder="Quận (huyện)..." required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                  </div>
+                </div>
+                <button class="btn btn-outline-warning" style="background-color: #343a40;" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--! /.thanh navigation -->
+
+  <!--! slide hình ảnh minh hoạ -->
+  <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/nafinia-putra-Kwdp-0pok-I-unsplash.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/4.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/jiawei-zhao-Y5UVCaKLfGY-unsplash.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/1.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/2.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/3.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/5.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/6.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/7.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/8.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/jazmin-quaynor-9Y8vxVQN4o4-unsplash.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!--! /.slide hình ảnh minh hoạ -->
+
+  <!--! tiêu đề author -->
+  <h1 id="author">AUTHORS</h1>
+  <!--! /.tiêu đề author -->
+
+  <!--! các thẻ tác giả -->
+  <div id="author-basic-infor" class="container-fluid card-group">
+    <div class="card">
+      <img class="card-img-top" src="img/author/tun-zkang.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">MAI NGUYỄN TUẤN GIANG</h3>
+        <h5 class="card-text">TH1909</h5>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">HUFLIT</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="img/author/Vĩnh-Đạt.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Huỳnh Vĩnh Đạt</h3>
+        <h5 class="card-text">TH1909</h5>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">HUFLIT</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="img/author/Trần-Thống.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">TRẦN THỐNG</h3>
+        <h5 class="card-text">TH1909</h5>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">HUFLIT</small>
+      </div>
+    </div>
+  </div>
+  <!--! /.các thẻ tác giả -->
+
+  <!--! footer -->
+  <footer class="container-fluid">
+    <div id="footer">
+      <ul id="footer-ul">
+        <li id="footer-li"><a target="blank" id="footer-a" href="https://www.facebook.com/giang.mai.526">Facebook</a></li>
+        <li id="footer-li"><a target="blank" id="footer-a" href="https://instagram.com/sofarsoguk?igshid=1wi1g2x488egz">Instagram</a></li>
+        <li id="footer-li"><a target="blank" id="footer-a" href="mailto:mntgiang2901@gmail.com">Email</a></li>
+        <li id="footer-li"><a target="blank" id="footer-a" href="https://github.com/tunzkang">Github</a></li>
+        <li id="footer-li">
+          <p id="footer-p" class="footer-p">👋</p>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!--! /.footer -->
+
+  <!--! nút cuộn trở về đầu trang -->
+  <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button">&#10148;</a>
+  <!--! /.nút cuộn trở về đầu trang -->
+
+</body>
+
+</html>
